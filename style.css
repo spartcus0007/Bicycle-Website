@@ -1,0 +1,428 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+#container-1{
+    width: 100%;
+    height: 100vh;
+    background:rgba(0, 0, 0, 0.6) url(/backgroundimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    
+    
+    
+}
+
+
+/* ---------------------------------NAVIGATION-------------------------------------------- */
+#navbar{
+    display: flex;
+    
+    background-color: rgba(37, 2, 2, 0.329);
+    width: 100%;
+    height: 4.813rem;
+    
+}
+#list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+}
+nav ul li{
+    margin: 0.5rem;
+    padding: 0.75rem;
+}
+
+
+
+#a-link{
+    text-decoration: none;
+    display: block;
+    margin: 0.313rem;
+    padding: 0.313rem;
+    color: white;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    
+}
+#a-link:hover{
+    background-color: white;
+    color: black;
+    border-radius: 0.938rem;
+    
+}
+nav img{
+    margin: 0.125rem 1.625rem;
+    padding: 0.063rem;
+    width: 4.375rem;
+    height: 4.375rem;
+    border: 0.125rem solid white;
+    border-radius: 5rem;
+    
+}
+#srch{
+    
+    display: flex;
+  
+    align-items: center;
+    justify-content: center;
+    margin-left: 6.25rem;
+}
+#form-search{
+    width: 25rem;
+    height: 2.5rem;
+    margin: 0.313rem;
+    text-align: center;
+    border-radius: 3.125rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    
+}
+#search-button{
+    width: 4.375rem;  
+    height: 1.563rem;  
+    border-radius: 2.5rem; 
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+     
+}
+
+#search-button:hover{
+    background-color: white;
+    color: black;
+}
+
+
+/*--------------------------------------(SECTION-1)--------------------------------------------- */
+#main-body{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    margin: 5rem;
+    padding: 5rem 5rem;
+    flex-wrap: wrap;
+    
+}
+#main-para{
+    margin: 0.625rem;
+    padding: 0.625rem 2.5rem;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 1.25rem;
+}
+#main-heading{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 3.75rem;
+    
+}
+/* -----------------------------------SECTION 2------------------------------------ */
+#bike-collection{
+    background:rgba(0, 0, 0, 0.6) url(/pexels-tamara-velazquez-6467908.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    width: 100%;
+    height: 100%;
+    background-blend-mode: darken;
+}
+
+#coll-heading{
+    text-align: center;
+    margin: 0 0 1.25rem 0;
+    padding: 0.303rem;
+    border: 0.125rem solid black;
+    border-radius: 0.625rem;
+    font-weight: bold;
+    font-size: 1.875rem;
+    background-color: rgba(37, 2, 2, 0.6);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: white;
+    
+}
+.bike-catagory{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.bike-catagory2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.bike-img{
+    height: 12.5rem;
+    width: 12.5rem;
+    padding:0 1.25rem;
+    transition-duration: 2s;
+   
+}
+.bike-img:hover{
+      transform: scale(1.1);
+      transform: rotateY(360deg);
+      cursor: pointer;
+      
+}
+.img-container{
+    
+    border: 2px solid black;
+    border-radius: 1.875rem;
+    margin: 2.5rem 3.125rem;
+    padding: 1.25rem;
+    background-color: blanchedalmond;
+    box-shadow: -0.5rem -0.5rem 0.313rem rgb(63, 61, 61);
+    
+    
+    
+}
+.img-container h3{
+    text-align: center;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 1.875rem;
+    ;
+    color: gray;
+    transition-duration: 2s;
+}
+.img-container h3:hover{
+    /* transform: rotateY(360deg); */
+    color: black;
+}
+.img-container h4{
+    text-align: center;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 1.25rem;
+    
+}
+.img-container h4 span button{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin: 1.25rem 1.875rem;
+    padding: 0.125rem;
+    border-radius: 1.25rem;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    transition-duration: .8s;
+
+
+}
+.img-container h4 span button:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+
+}
+/* ----------------------------------------------------------------SECTION 3----------------------------------------------------- */
+#our-services{
+    background:rgba(0, 0, 0, 0.6) url(/pexels-tim-mossholder-3612885.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+#ser-heading{
+    text-align: center;
+    margin: 0 0 1.25rem 0;
+    padding: 0.313rem;
+    border: 0.125rem solid black;
+    border-radius: 0.625rem;
+    font-weight: bold;
+    font-size: 1.875rem;
+    background-color: rgba(37, 2, 2, 0.6);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: rgb(238, 237, 233);
+}
+#service-container{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+
+#service-container-1{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    
+
+    
+}
+#service-container-1 h2,p{
+    margin: 0.625em 1.25rem;
+    padding:0 0.625rem;
+    text-align: center;
+    color: white;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+#service-container-1 h2{
+    text-align: center;
+    color: goldenrod;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+#service-container-2{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    
+}
+
+#service-container-2 h2,p{
+    margin: 0.625rem 1.25rem;
+    padding:0 0.625rem;
+    text-align: center;
+    color:white;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+#service-container-2 h2{
+    text-align: center;
+    color: goldenrod;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.service-box{
+    width: 31.25rem;
+    height: 18.75rem;
+    margin: 0 1.25rem;
+    padding: 0 1.25rem;
+}
+.logo-img{
+    display: block;
+    height: 9.375rem;
+    width: 9.375rem;
+    margin: auto;
+    border-radius: 6.25rem;
+    transition-duration: .8s;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.logo-img:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+/*------------------------------------------------------- SECTION 4 -----------------------------------------------------------*/
+#bottom-container{
+     display: flex;
+     background-color: #202227;
+}
+
+#myform{
+    display: flex;
+    flex-direction: column;
+    padding: 0.625rem 2.5rem;
+}
+
+#myform label{
+   color: white;
+   font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+#mysubmit{
+    color: rgb(10, 9, 9);
+    display: block;
+    width: 6.25rem;
+    height: 1.875rem;
+    margin-left: 1.875rem;
+    border-radius: 3.75rem;
+    transition-duration: 0.8s;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+#mysubmit:hover{
+    background-color: black;
+    color: aqua;
+    transform: scale(1.1);
+}
+
+#form-head{
+ text-align: center;
+ color: silver;
+ margin:0 0 0.938rem  0;
+ font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.form-colm{
+height: 1.25rem;
+}
+
+#left-body{
+    height: 55vh;
+    width:20vw;
+    margin: 2.5rem 3.75rem;
+    padding: 1.875rem 0.625rem;
+    border: 3px solid black;
+    background-color: rgb(60, 5, 5);
+    border-radius: 1.25rem;
+}
+
+#right-body{
+    width: 80vw;
+    height: 50vh;
+}
+
+#clint-head{
+    text-align: center;
+    margin:7.5rem 2.5rem 2.5rem 2.5rem ;
+    font-size: 2.188rem;
+    color: silver;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    
+}
+
+.client-img{
+    
+    border: 0.188rem solid grey;
+    width: 6.25rem;
+    height: 6.25rem;
+    margin: 1.25rem 2.5rem;
+    text-align: center;
+    border-radius: 0.625rem;
+    transition-duration: 0.9s;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.client-img:hover{
+    transform: scale(1.4);
+    opacity: 1;
+}
+
+/* --------------------------------------------------------FOOTER-------------------------------------------------------- */
+#footer-box{
+    background-color: #202227;
+}
+#footer-head{
+    width: 95.5vw;
+    text-align: center;
+    margin:0 1.25rem 0.313rem 0;
+    padding: 1.25rem;
+    font-size: 1.563rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: aqua;
+    /* border:2px solid goldenrod; */
+}
+.footer-img{
+    width: 3.75rem;
+    height: 3.75rem;
+    position: relative;
+    left: 31.25rem;
+    margin: 0.313rem 1.875rem 0.625rem 1.875rem;
+    transition: 0.8s;
+    cursor: pointer;
+    opacity: 0.9;
+    border: 0.188rem solid silver;
+    border-radius: 0.938rem;
+}
+.footer-img:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+#footer-box p{
+    margin:0 ;
+}
